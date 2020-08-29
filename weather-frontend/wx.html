@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- wx.html, wx.css, wx.js 
+ *  Raspberry Pi 7" touchscreen weather display
+ *  TechIsSoCool.com
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="wx.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="wx">
+        <div><span id="wxLocation"></span><span id="wxTime"></span></div>
+        <hr>
+        <div id="wxCurrent">
+            <span id="currently"></span>
+            <span id="coming"></span>
+        </div>
+        <hr>
+        <div id="forecast">
+            
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="skycons.js"></script>
+    <script src="wx.js"></script>
+</body>
+</html>
